@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/alta_usuario"
+        android:id="@+id/al_usua"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:layout_below="@+id/al_usua"
+        android:layout_marginTop="40dp"
+        android:id="@+id/et_nombre"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefono"
+        android:layout_below="@id/et_nombre"
+        android:id="@+id/et_telefono"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_below="@+id/et_telefono"
+        android:id="@+id/et_email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/twitter"
+        android:layout_below="@id/et_email"
+        android:id="@+id/et_twitter" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="enviar datos"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bt_login"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practica2OswarNaal</string>
+    <string name="alta_usuario">Alta Usuario</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="twitter">Twitter</string>
+    <string name="datos_recibidos">Datos Recibidos</string>
+    <string name="editar_datos">Editar Datos</string>
+</resources>
